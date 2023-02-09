@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.RegistrationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-02-09T19:18:27" hostname="LAPTOP" time="1.411">
+  <properties/>
+  <testcase name="registrationSuccess" classname="tests.RegistrationTests" time="1.411"/>
+  <system-out><![CDATA[21:18:22.829  INFO  tests.TestBase - The name of starts method is --->registrationSuccess
+21:18:22.831  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+21:18:27.848  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+21:18:27.850  INFO  manager.ListenerWD - List suze is --> 0
+21:18:27.851  INFO  manager.ListenerTNG - onTestStart ---registrationSuccess
+21:18:27.856  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+21:18:27.880  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+21:18:27.899  INFO  manager.ListenerWD - Before find element --> By.cssSelector: a[href='/login']
+21:18:27.913  INFO  manager.ListenerWD - After find element --> By.cssSelector: a[href='/login']
+21:18:27.951  INFO  manager.ListenerWD - Before find element --> By.name: email
+21:18:27.968  INFO  manager.ListenerWD - After find element --> By.name: email
+21:18:28.064  INFO  manager.ListenerWD - Before find element --> By.name: password
+21:18:28.076  INFO  manager.ListenerWD - After find element --> By.name: password
+21:18:28.153  INFO  manager.ListenerWD - Before find element --> By.cssSelector: [name='registration']
+21:18:28.167  INFO  manager.ListenerWD - After find element --> By.cssSelector: [name='registration']
+21:18:28.190  INFO  manager.ListenerWD - Before find elements --> By.xpath: //button[text()='Sign Out']
+21:18:29.260  INFO  manager.ListenerWD - After find elements --> By.xpath: //button[text()='Sign Out']
+21:18:29.260  INFO  manager.ListenerWD - List suze is --> 1
+21:18:29.264  INFO  manager.ListenerTNG - onTestSuccessregistrationSuccess
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

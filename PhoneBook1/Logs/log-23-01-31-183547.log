@@ -1,0 +1,44 @@
+18:35:49.601  INFO  manager.ApplicationManager - All tests start in Chrome browser
+18:35:50.687  INFO  manager.ApplicationManager - Current URL --> https://telranedu.web.app/home
+18:35:50.692  INFO  manager.ListenerTNG - onStart ---Gradle test
+18:35:50.715  INFO  tests.TestBase - The name of starts method is --->loginSuccess
+18:35:50.717  INFO  manager.ListenerWD - Before find elements -->By.xpath: //button[text()='Sign Out']
+18:35:55.763  INFO  manager.ListenerWD - After find elements -->By.xpath: //button[text()='Sign Out']
+18:35:55.765  INFO  manager.ListenerWD - List size is -->0
+18:35:55.768  INFO  manager.ListenerTNG - onTestStart ---loginSuccess
+18:35:55.773  INFO  tests.TestBase - Login with valid data :  email: noa@gmail.com & password: Noa12345$
+18:35:55.774  INFO  manager.ListenerWD - Before find element -->By.cssSelector: a[href='/login']
+18:35:55.800  INFO  manager.ListenerWD - After find element -->By.cssSelector: a[href='/login']
+18:35:55.842  INFO  manager.ListenerWD - Before find element -->By.name: email
+18:35:55.862  INFO  manager.ListenerWD - After find element -->By.name: email
+18:35:55.960  INFO  manager.ListenerWD - Before find element -->By.name: password
+18:35:55.978  INFO  manager.ListenerWD - After find element -->By.name: password
+18:35:56.057  INFO  manager.ListenerWD - Before find element -->By.cssSelector: [name='login']
+18:35:56.074  INFO  manager.ListenerWD - After find element -->By.cssSelector: [name='login']
+18:35:56.099  INFO  manager.ListenerWD - Before find elements -->By.xpath: //button[text()='Sign Out']
+18:35:57.183  INFO  manager.ListenerWD - After find elements -->By.xpath: //button[text()='Sign Out']
+18:35:57.183  INFO  manager.ListenerWD - List size is -->0
+18:35:57.188  INFO  manager.ListenerTNG - onTestFailure ---loginSuccess
+18:35:57.189  INFO  tests.TestBase - The name of starts method is --->loginSuccess
+18:35:57.189  INFO  manager.ListenerWD - Before find elements -->By.xpath: //button[text()='Sign Out']
+18:35:57.200  INFO  manager.ListenerWD - The have a 'problem'
+18:35:57.201  INFO  manager.ListenerWD - ******************
+18:35:57.201  INFO  manager.ListenerWD - Method method ---> findElements
+18:35:57.201  INFO  manager.ListenerWD - ******************
+18:35:57.205  INFO  manager.ListenerWD - InvocationTargetException getTargetException()org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Wrong email or password}
+  (Session info: chrome=109.0.5414.75): Wrong email or password
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'LAPTOP', ip: '192.168.1.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a42e662b40c69e851e9fb0f2b1a2c9bb, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\suzanna\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:58033}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58033/devtoo..., se:cdpVersion: 109.0.5414.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a42e662b40c69e851e9fb0f2b1a2c9bb
+18:35:57.205  INFO  manager.ListenerWD - ******************
+18:35:57.206  INFO  manager.ListenerWD - Object target --->ChromeDriver: chrome on WINDOWS (a42e662b40c69e851e9fb0f2b1a2c9bb)
+18:35:57.206  INFO  manager.ListenerWD - ******************
+18:35:57.209  INFO  manager.ListenerWD - Screen with error is --->src/test/screenshots/screen-340.png
+18:35:57.575  INFO  manager.ListenerTNG - onTestStart ---loginSuccess
+18:35:57.576  INFO  manager.ListenerTNG - onTestSkipped ---loginSuccess
+18:35:57.577  INFO  manager.ListenerTNG - onTestStart ---loginSuccess
+18:35:57.577  INFO  manager.ListenerTNG - onTestSkipped ---loginSuccess
+18:35:57.580  INFO  manager.ListenerTNG - onFinish ---Gradle test
