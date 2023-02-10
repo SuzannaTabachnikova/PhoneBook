@@ -26,6 +26,7 @@ public class RegistrationTests extends TestBase{
         app.getHelperUser().fillLoginRegistrationForm(email,"Nnoa12345$");
         app.getHelperUser().submitRegistration();
         Assert.assertTrue(app.getHelperUser().isLogged());
+        //fgh
 
 
     }
